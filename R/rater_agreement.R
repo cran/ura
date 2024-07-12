@@ -83,7 +83,7 @@ rater_agreement <- function(object_name,
     final <- subjects_wide %>%
       dplyr::summarise(percent_agree = 100 * round(sum(.data[['agree']]) / dplyr::n(), 2))
 
-    all_pct_agree[[i]] <- tibble::tibble(rater = i,
+    all_pct_agree[[i]] <- tibble::tibble(rater = rater_i,
                                          percent_agree = dplyr::pull(final,
                                                                      .data[['percent_agree']]),
                                          n_multi_coded = nrow(subjects_wide))

@@ -6,7 +6,7 @@
 \alias{ura-package}
 \title{ura: Monitoring Rater Reliability}
 \description{
-Provides researchers with a simple set of diagnostic tools for monitoring the progress and reliability of raters conducting content coding tasks. Goehring (2023) \url{https://bengoehring.github.io/files/ps-paper-anon-word-ca.docx} argues that supervisors---especially supervisors of small teams---should utilize computational tools to monitor reliability in real time. As such, this package provides easy-to-use functions for calculating inter-rater reliability statistics and measuring the reliability of one coder compared to the rest of the team.
+Provides researchers with a simple set of diagnostic tools for monitoring the progress and reliability of raters conducting content coding tasks. Goehring (2024) \url{https://bengoehring.github.io/improving-content-analysis-tools-for-working-with-undergraduate-research-assistants.pdf} argues that supervisors---especially supervisors of small teams---should utilize computational tools to monitor reliability in real time. As such, this package provides easy-to-use functions for calculating inter-rater reliability statistics and measuring the reliability of one coder compared to the rest of the team.
 }
 \seealso{
 Useful links:

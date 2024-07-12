@@ -20,13 +20,13 @@ values by rater, providing an efficient way to monitor the relative
 reliability of your raters.
 
 This package complements a
-[paper](https://bengoehring.github.io/files/ps-paper-anon-word-ca.docx),
-conditionally accepted at *PS: Political Science & Politics*, entitled
-“Improving Content Analysis: Tools for Working with Undergraduate
-Research Assistants.” Please refer to this paper for a more general
-discussion about training and monitoring student raters. Also, be sure
-to check out the paper for more information about how to use the tools
-in `ura` to monitor progress without compromising reproducibility.
+[paper](https://bengoehring.github.io/improving-content-analysis-tools-for-working-with-undergraduate-research-assistants.pdf)
+published in *PS: Political Science & Politics*, entitled “Improving
+Content Analysis: Tools for Working with Undergraduate Research
+Assistants.” Please refer to this paper for a more general discussion
+about training and monitoring student raters. Also, be sure to check out
+the paper for more information about how to use the tools in `ura` to
+monitor progress without compromising reproducibility.
 
 ## Installation Instructions
 
@@ -125,7 +125,7 @@ rater_agreement(diagnoses,
                 coding_column = 'diagnosis')
 #> # A tibble: 6 × 3
 #>   rater percent_agree n_multi_coded
-#>   <int>         <dbl>         <int>
+#>   <dbl>         <dbl>         <int>
 #> 1     1            17            30
 #> 2     2            17            30
 #> 3     3            17            30
@@ -167,7 +167,7 @@ rater_agreement(example_data,
                 coding_column = 'coding')
 #> # A tibble: 3 × 3
 #>   rater percent_agree n_multi_coded
-#>   <int>         <dbl>         <int>
+#>   <dbl>         <dbl>         <int>
 #> 1     3           100             2
 #> 2     2            75             4
 #> 3     1            50             2
